@@ -1,0 +1,125 @@
+.content-body {
+  clear: both;
+}
+
+.loading-or-error {
+  font-size: 1.5rem;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.loading-or-error .margin-icon {
+  margin-bottom: 15px;
+}
+
+.container .row {
+  border-top: 1px solid #dee2e6;
+}
+
+.container .row:nth-child(even) {
+  background-color: #333842;
+}
+
+.container .row:hover {
+  background-color: #49505f;
+}
+
+.container .row [class*='col-'] {
+  float: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 8px 10px;
+}
+
+.container .row [class*='col-'] a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.button-holder {
+  float: left;
+  padding: 10px 0;
+  margin: 0 0 0 40%;
+}
+
+.button-holder.pagenum {
+  float: right;
+  margin-left: 25px;
+}
+
+.button-holder button {
+  padding: 4px 11px;
+  margin: 5px;
+  background-color: beige;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+}
+
+.button-holder button.active {
+  background-color: rgba(97, 218, 251, 0.7);
+  color: beige;
+  border-color: beige;
+}
+
+.button-holder button:hover {
+  background-color: #61dafb;
+  border-color: #61dafb;
+  color: beige;
+}
+
+.button-holder button:disabled {
+  color: white;
+  background-color: gray;
+  border-color: gray;
+}
+
+
+
+/*****RepoBody*****/
+.ad-container {
+  position: relative;
+}
+
+.ad-container .ad-title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 1.5;
+  padding: 8px 10px 20px !important;
+}
+
+.ad-content-wrapper {
+  position: relative;
+  max-height: 200px;
+  color: #f7f7f7;
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding: 0 !important;
+}
+
+.ad-content-wrapper .employer {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+
+.ad-content-wrapper .sidebar {
+  border-left: 2px solid #61dafb;
+}
+
+.ad-content-wrapper .sidebar .workplace {
+  white-space: normal;
+  word-break: break-word;
+}
+
+.ad-container .ad-link {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-image: linear-gradient(to bottom, transparent, #121417);
+  padding: 25px 10px 10px !important
+}
